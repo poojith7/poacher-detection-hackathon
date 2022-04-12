@@ -1,16 +1,7 @@
 ## Wildlife Poacher Detection and Alerting system in Real-time using Deep Learning
 This repo consists of code used for training and detecting Poachers in wild using custom YoloV3 model through webcam/external device.<br>
 
-* The Dataset is collected from google images using [Download All Images](https://chrome.google.com/webstore/detail/download-all-images/ifipmflagepipjokmbdecpmjbibjnakm) chrome extension and labelling is done using [Label Img](https://github.com/tzutalin/labelImg) tool.<br>
-
-* Some of the readily labelled datasets are available here @[Google's Open Image Dataset v5](https://storage.googleapis.com/openimages/web/index.html). You label dataset either using LabelImg or Online CVAT tool.<br>
-
-
-
-|  🧾 Colab Notebook  |   🗃 Dataset with Annotations   | 🔑 Trained YOLOv3 Model | 🧠 Complete Folder  |
-|------------|-------------|-----------|-----------|
-| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/snehitvaddi/Animal-Poacher-Detection-and-Alerting-System/blob/master/YOLOv3-Training-notebook.ipynb) | [Images & Annotations](https://drive.google.com/file/d/1i7odPzL8kWigesajYkMM0XopQhh1g86J/view?usp=sharing) | [Download Model](https://drive.google.com/file/d/1_20xIEqXsnoQBakMGD3llYAm1D0Dmi0A/view?usp=sharing) | [Project Folder](https://drive.google.com/drive/folders/17S0nm_11wjBmDVhYezXs_K17wsZkuKsx?usp=sharing)  |
-
+*
 #### 💡 Sample Inputs 
 
 |  1.jpg | 2.jpg  | pic1.jpg | pic2.jpg |
@@ -23,13 +14,7 @@ This repo consists of code used for training and detecting Poachers in wild usin
 | <img src="https://github.com/snehitvaddi/Poacher-Detection/blob/master/outputs/4.png"  width="250" height="200"> | <img src="https://github.com/snehitvaddi/Poacher-Detection/blob/master/outputs/5.png"  width="250" height="200">|<img src="https://github.com/snehitvaddi/Poacher-Detection/blob/master/outputs/6.png"  width="250" height="200">|<img src="https://github.com/snehitvaddi/Poacher-Detection/blob/master/outputs/pic2.png"  width="250" height="200">|
 
 ****************************************************************************************************************************************
-### 📂 Files Required :
-I referenced this tutorial from an [YouTube Video](https://www.youtube.com/channel/UCrydcKaojc44XnuXrfhlV8Q) by TheAIGuy channel.
-You can follow a step-by-step walkthrough of video and the code here: https://www.youtube.com/watch?v=10joRJt39Ns
 
-You can download the yolov3 pretrained weights by clicking [here](https://pjreddie.com/media/files/yolov3.weights) and yolov3-tiny [here](https://pjreddie.com/media/files/yolov3-tiny.weights)
-
-****************************************************************************************************************************************
 ## 🧠 Further Ideas
 * Integrate the model with IOT and leverage Cloud services for real-time monitoring and alerting system.
 * Any Ideas/suggestions/contributions are highly appreciable.
